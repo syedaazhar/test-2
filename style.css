@@ -1,0 +1,72 @@
+body{
+    background-color: #a9d0da;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    height: 81vh;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card{
+    height: 69%;
+}
+
+.card-text{
+    height: 76px;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.keys,.enter-key{
+    background-image: url('images/keyboard-key.png');
+    background-position: center;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+}
+
+.space-key{
+    background-image: url('images/space-bar-key.png');
+    background-position: center;
+    background-size: cover;
+    width: 93px;
+    height: 48px;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+}
+
+.key-container{
+    padding: 16px;
+}
+
+#key-board-1, #key-board-2, #key-board-3, #key-board-4{
+   text-align: center;
+}
+
+@media screen and (max-width:457px){
+    .keys {
+    width: 37px;
+    height: 37px;
+    font-size: 16px;
+}
+}
